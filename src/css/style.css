@@ -54,27 +54,48 @@ body {
     justify-content: center;
     width: 100%;
     margin: 20px 0;
-  }
-  
-  .line {
+}
+
+.line {
     flex: 1;
     height: 1px;
-    background-color: #ccc; /* Cor da linha */
+    background-color: #ccc;
+    /* Cor da linha */
     margin: 0 10px;
-  }
-  
-  .icon {
+}
+
+.icon {
     font-size: 18px;
-    color: #ccc; /* Cor do ícone */
-  }
-  
-  /* Ajuste para telas menores */
-  @media (max-width: 600px) {
+    color: #ccc;
+    /* Cor do ícone */
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 600px) {
+
+    .container {
+        max-width: 320px;
+        /* Reduzindo mais */
+        width: 100%;
+        /* Garante que ele não ultrapasse */
+        padding: 15px;
+        /* Reduzindo o padding */
+    }
+
     .icon {
-      font-size: 14px; /* Ícone menor */
+        font-size: 12px;
+        /* Ícone menor */
     }
-  
+
     .line {
-      margin: 0 5px; /* Linhas mais próximas do ícone */
+        margin: 0 3px;
+        /* Linhas mais próximas do ícone */
     }
-  }
+
+    .container .click:active,
+    .container .click .active {
+        color: var(--button-text-card-color);
+        box-shadow: 0 5px 15px var(--button-text-card-color);
+    }
+
+}
