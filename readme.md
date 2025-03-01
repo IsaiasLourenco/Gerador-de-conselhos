@@ -1,7 +1,7 @@
 # Exercício HTML + CSS Avançado - App Gerador de conselhos
 
 Exercício de HTML e CSS avançado para praticar o que aprendeu na extensão universitária Dev Full Stack DevEmDobro.
-Atualização feita em 01/03/2025. O JavaScript agora consome uma API, do https://api.adviceslip.com/advice e gera o conmselho automaticamente. 
+Atualização feita em 01/03/2025. O JavaScript agora consome uma API, do https://api.adviceslip.com/#endpoint-random e gera o conselho automaticamente. 
 
 ## Recursos
 
@@ -18,7 +18,7 @@ Essa é a primeira parte trazida de um exercício do Front End Menthor, https://
     - HTML;
     - CSS,
     - JavaScript;
-    - Consumo de API - https://api.adviceslip.com/advice
+    - Consumo de API - https://api.adviceslip.com/#endpoint-random
 
 ## Inicialização
 
