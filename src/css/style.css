@@ -18,6 +18,11 @@ body {
     max-width: 450px;
 }
 
+.container .advice-card {
+    text-align: center;
+    width: 100%;
+}
+
 .container .adv-number {
     color: var(--button-text-card-color);
     text-transform: uppercase;
@@ -75,21 +80,16 @@ body {
 
     .container {
         max-width: 320px;
-        /* Reduzindo mais */
-        width: 100%;
-        /* Garante que ele não ultrapasse */
+        width: 80%;
         padding: 15px;
-        /* Reduzindo o padding */
     }
 
     .icon {
         font-size: 12px;
-        /* Ícone menor */
     }
 
     .line {
         margin: 0 3px;
-        /* Linhas mais próximas do ícone */
     }
 
     .container .click:active,
